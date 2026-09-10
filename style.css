@@ -1,0 +1,96 @@
+*{
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-color: #1F2937; */
+}
+
+a{
+    text-decoration: none;
+}
+
+/* HEADER */
+
+header{
+    display: flex;
+    background-color: #1F2937;
+    padding: 12px 20%;
+}
+
+.header-item{
+    flex: 1;
+}
+
+#logo-text{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+#header-buttons{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    justify-content: end;
+}
+
+.secondary-text{
+    color: #F9FAF8;
+    /* flex: 1; */
+    text-align: center;
+}
+
+
+/* HERO */
+#hero{
+    background-color: #1F2937;
+    display: flex;
+    padding: 72px 20%;
+    gap: 24px;
+}
+
+#hero-info{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    
+}
+
+#hero-desc, #hero-header, .basic-button{
+    flex: 1;
+}
+
+#hero-desc{
+    text-align: left;
+}
+
+#hero-header{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#hero-img{
+    width: 400px;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 12px;
+}
+
+.basic-button{
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    width: fit-content;
+    padding: 10px;
+    flex: none;
+}
+
+.basic-button:hover{
+    background-color: #d9d9d9;
+    cursor: pointer;
+}
